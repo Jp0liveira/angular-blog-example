@@ -1,0 +1,25 @@
+<header>
+  <nav>
+    <app-menu-bar></app-menu-bar>
+  </nav>
+</header>
+
+<main>
+  <section>
+    <app-menu-title></app-menu-title>
+  </section>
+
+  <article>
+    <div class="container__articles">
+      <section class="articles__main">
+        <app-big-card
+        [photoCover] = "'https://source.unsplash.com/random/'"></app-big-card>
+      </section>
+      <section class="articles__others">
+        <app-small-card [imageLink]="'https://source.unsplash.com/random/1'"></app-small-card>
+        <app-small-card [imageLink]="'https://source.unsplash.com/random/2'"></app-small-card>
+        <app-small-card [imageLink]="'https://source.unsplash.com/random/3'"></app-small-card>
+      </section>
+    </div>
+  </article>
+</main>

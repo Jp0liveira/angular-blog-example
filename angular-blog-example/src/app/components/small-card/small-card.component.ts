@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-small-card',
@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./small-card.component.css']
 })
 export class SmallCardComponent implements OnInit {
-
+  @Input() imageLink: string = "https://source.unsplash.com/random/";
+  @Input() cardTitle: string = "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto maxime quos, voluptatum soluta possimus quia quaerat expedita sunt."
   constructor() { }
 
   ngOnInit(): void {

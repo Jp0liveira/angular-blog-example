@@ -1,0 +1,4 @@
+.container__articles{
+  display: flex;
+  flex-direction: row;
+}
