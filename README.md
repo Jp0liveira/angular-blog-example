@@ -10,7 +10,7 @@
     UFPA
 --->
 
-Este projeto é uma implementação de um Blog responsivo utilizando o Angular Framework. O projeto tem como objetivo fornecer uma visão básica das funcionalidades do framework e é destinado para fins de estudo.
+Este projeto é uma implementação de um Blog utilizando o Angular Framework. O projeto tem como objetivo fornecer uma visão básica das funcionalidades do framework e é destinado para fins de estudo.
 
 ## Tabela de Conteúdo
 
